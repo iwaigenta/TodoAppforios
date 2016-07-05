@@ -14,6 +14,6 @@ import CoreData
 
 extension Todo {
 
-    @NSManaged var item: String?
+    //@NSManaged var item: String?
 
 }

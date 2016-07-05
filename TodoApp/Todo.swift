@@ -12,6 +12,6 @@ import CoreData
 @objc(Todo)
 class Todo: NSManagedObject {
 
-   // @NSManaged var item: String
+    @NSManaged var item: String?
     
 }

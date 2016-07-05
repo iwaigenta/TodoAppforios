@@ -28,6 +28,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="oeH-V8-ebB" kind="show" identifier="edit" id="H9Z-wR-g2Y"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -123,4 +126,7 @@
             <point key="canvasLocation" x="288" y="334"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="H9Z-wR-g2Y"/>
+    </inferredMetricsTieBreakers>
 </document>

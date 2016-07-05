@@ -31,6 +31,9 @@ class TodoItemViewController: UIViewController {
     }
 
     @IBAction func save(sender: UIBarButtonItem) {
+    //    let newTask : Todo = Todo.MR_createEntity() as Todo!
+    //    newTask.item = todoFeild.text
+    //    newTask.managedObjectContext!.MR_saveToPersistentStoreAndWait()
         if task != nil {
             editTask()
         } else {
